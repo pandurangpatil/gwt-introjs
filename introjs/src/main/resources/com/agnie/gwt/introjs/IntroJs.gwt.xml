@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.6.1//EN" "http://google-web-toolkit.googlecode.com/svn/tags/2.6.1/distro-source/core/src/gwt-module.dtd">
+<module rename-to="introjs">
+	<inherits name="com.google.gwt.user.User" />
+	<source path="client" />
+	<public path='client/resources'>
+		<include name="**/*.css" />
+	</public>
+	<stylesheet src="introjs.css" />
+
+	<!-- Skin CSS -->
+	<stylesheet src="themes/introjs-nassim.css" />
+	<entry-point
+		class="com.agnie.gwt.introjs.client.IntroJsEntryPoint">
+	</entry-point>
+</module>
