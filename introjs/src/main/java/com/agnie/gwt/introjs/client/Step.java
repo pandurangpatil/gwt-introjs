@@ -35,6 +35,14 @@ public class Step extends JavaScriptObject {
 		return this.position;
     }-*/;
 
+    public final native void setTargetElementQuerySelector(String targetElementQuerySelector)/*-{
+		this.element = targetElementQuerySelector;
+    }-*/;
+
+    public final native String getTargetElementQuerySelector()/*-{
+		return this.element;
+    }-*/;
+
     public final native void setTargetElement(Element targetElement)/*-{
 		this.element = targetElement;
     }-*/;

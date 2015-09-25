@@ -3,6 +3,7 @@
 <module rename-to="introjstest">
 	<inherits name="com.google.gwt.user.User" />
 	<inherits name="com.agnie.gwt.introjs.IntroJs" />
+	<inherits name="com.google.gwt.json.JSON" />
 	<source path="client" />
 	<entry-point class="com.agnie.introjstest.client.IntroJsEntryModuleTest">
 	</entry-point>
