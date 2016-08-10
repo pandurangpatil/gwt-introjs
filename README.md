@@ -93,7 +93,7 @@ public class IntroJsEntryModuleTest implements EntryPoint {
    <repositories>
       <repository>
          <id>Agnie repo</id>
-         <url>https://github.com/Agnie-Software/mvn-repo/raw/master/releases</url>
+         <url>https://github.com/pandurangpatil/mvn-repo/raw/master/releases</url>
       </repository>
    </repositories>
 ```
